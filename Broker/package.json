@@ -1,0 +1,14 @@
+{
+  "name": "mqtt-broker",
+  "version": "0.0.0",
+  "description": "Runs an MQTT broker over WebSockets using Mosca.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Kevin Novak",
+  "license": "ISC",
+  "dependencies": {
+    "mosca": "2.8.0"
+  }
+}
