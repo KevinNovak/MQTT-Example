@@ -1,5 +1,5 @@
 # MQTT.js / Mosca Example
-## MQTT.js in Browser with Mosca Broker
+### MQTT.js in Browser with Mosca Broker
 
 Didn't see many examples around so decided to put this out there.
 
