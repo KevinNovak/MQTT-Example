@@ -6,9 +6,9 @@ Didn't see many examples around so decided to put this out there.
 Includes 2 examples:
 
 1. **Embedded**
-    * Mosca broker runs alongside an express application, as a single executable app  
+    * Mosca broker runs alongside an express application, as a single executable node app  
 2. **Standalone**
-    * Mosca broker and express application run in seperate applications
+    * Mosca broker and express application run in separate node applications
 
 ## References
 * [MQTT.js](https://www.npmjs.com/package/mqtt)
