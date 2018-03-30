@@ -1,0 +1,15 @@
+{
+  "name": "mqtt-embedded",
+  "version": "0.0.0",
+  "description": "Serves up a web page that implements MQTT.js in the browser.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Kevin Novak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3",
+    "mosca": "2.8.0"
+  }
+}
