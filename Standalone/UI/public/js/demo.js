@@ -2,10 +2,6 @@
 // The port here is the "http" port we specified on the MQTT Broker
 var client = mqtt.connect('ws://localhost:80');
 
-// Subscribe to the "mqtt/demo" topic
-// (The same one we are publishing to for this example)
-client.subscribe('mqtt/demo');
-
 // Message recieved
 client.on('message', (topic, payload) => {
     // Log message
@@ -16,6 +12,10 @@ client.on('message', (topic, payload) => {
 });
 
 client.on('connect', () => {
+    // Subscribe to the "mqtt/demo" topic
+    // (The same one we are publishing to for this example)
+    client.subscribe('mqtt/demo');
+
     console.log('Connected to MQTT Broker.');
 });
 
